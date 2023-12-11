@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #004080; /* Ocean Blue */
+    padding: 20px;
+    color: #ffffff;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #004080; /* Ocean Blue */
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #005477; /* Darker Blue for button */
+    color: #ffffff;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #005477; /* Lighter Blue on hover */
+}
